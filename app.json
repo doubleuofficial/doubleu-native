@@ -1,0 +1,56 @@
+{
+  "expo": {
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0a0a0b",
+        "foregroundImage": "./assets/adaptive-icon.png"
+      },
+      "package": "online.doubleuofficial.app",
+      "versionCode": 1
+    },
+    "extra": {
+      "eas": {
+        "projectId": "REPLACE_WITH_EAS_PROJECT_ID"
+      }
+    },
+    "icon": "./assets/icon.png",
+    "ios": {
+      "bundleIdentifier": "online.doubleuofficial.app",
+      "supportsTablet": true
+    },
+    "name": "DoubleU",
+    "orientation": "portrait",
+    "plugins": [
+      "expo-router",
+      [
+        "expo-audio",
+        {
+          "enableBackgroundPlayback": true
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Show you DoubleU shows near you."
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "color": "#ff7700",
+          "icon": "./assets/icon.png"
+        }
+      ],
+      "expo-splash-screen"
+    ],
+    "scheme": "doubleu",
+    "slug": "doubleu-app",
+    "userInterfaceStyle": "dark",
+    "version": "1.0.0",
+    "runtimeVersion": "1.0.0",
+    "updates": {
+      "url": "https://u.expo.dev/REPLACE_WITH_EAS_PROJECT_ID",
+      "fallbackToCacheTimeout": 0
+    }
+  }
+}
