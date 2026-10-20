@@ -10,7 +10,7 @@
     },
     "extra": {
       "eas": {
-        "projectId": "REPLACE_WITH_EAS_PROJECT_ID"
+        "projectId": "7dbc54fc-fdc2-4e14-8068-82eff8f25f4d"
       }
     },
     "icon": "./assets/icon.png",
@@ -49,7 +49,7 @@
     "version": "1.0.0",
     "runtimeVersion": "1.0.0",
     "updates": {
-      "url": "https://u.expo.dev/REPLACE_WITH_EAS_PROJECT_ID",
+      "url": "https://u.expo.dev/7dbc54fc-fdc2-4e14-8068-82eff8f25f4d",
       "fallbackToCacheTimeout": 0
     }
   }
